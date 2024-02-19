@@ -59,9 +59,10 @@ function getBudget() {
                 });
         }
 
-getBudget();
+
 
 function HomePage() {
+    getBudget();
   return (
     <div>
         <main className="center" id="main">
